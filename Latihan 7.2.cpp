@@ -74,7 +74,7 @@ int main() {
                 cin >> edit;
                 bool ditemukan = false;
                 for (int i = 0; i < jumlahData; i++) {
-                    if (kry[i].nik == nikEdit) {
+                    if (kry[i].nik == edit) {
                         cout << "Masukkan nama baru: ";
                         cin >> kry[i].nama;
                         cout << "Masukkan umur baru: ";
@@ -96,7 +96,7 @@ int main() {
                 cin >> hapus;
                 bool ditemukan = false;
                 for (int i = 0; i < jumlahData; i++) {
-                    if (kry[i].nik == nikHapus) {
+                    if (kry[i].nik == hapus) {
                         for (int j = i; j < jumlahData - 1; j++) {
                             kry[j] = kry[j + 1];
                         }
@@ -131,4 +131,5 @@ int main() {
 
     return 0;
 }
+
 
