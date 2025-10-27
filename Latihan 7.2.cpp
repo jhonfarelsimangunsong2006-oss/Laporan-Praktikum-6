@@ -69,9 +69,9 @@ int main() {
             }
 
             case 3: {
-                string nikEdit;
+                string edit;
                 cout << "Masukkan NIK yang akan diedit: ";
-                cin >> nikEdit;
+                cin >> edit;
                 bool ditemukan = false;
                 for (int i = 0; i < jumlahData; i++) {
                     if (kry[i].nik == nikEdit) {
@@ -91,9 +91,9 @@ int main() {
             }
 
             case 4: {
-                string nikHapus;
+                string hapus;
                 cout << "Masukkan NIK yang akan dihapus: ";
-                cin >> nikHapus;
+                cin >> hapus;
                 bool ditemukan = false;
                 for (int i = 0; i < jumlahData; i++) {
                     if (kry[i].nik == nikHapus) {
@@ -131,3 +131,4 @@ int main() {
 
     return 0;
 }
+
