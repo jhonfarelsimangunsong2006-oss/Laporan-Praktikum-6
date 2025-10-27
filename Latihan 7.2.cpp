@@ -20,7 +20,7 @@ int main() {
         }
         fileIn.close();
     } else {
-        cout << "File tidak ditemukan. File baru akan dibuat."<<endl;
+        cout << "File tidak ditemukan"<<endl;
     }
 
     int pilihan;
@@ -131,5 +131,6 @@ int main() {
 
     return 0;
 }
+
 
 
