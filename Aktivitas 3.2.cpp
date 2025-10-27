@@ -29,7 +29,8 @@ stringstream ss(line);
  cout << "Nama: " << mhs[i].nama << endl;
  cout << "Umur: " << mhs[i].umur << endl;
  cout << "NIK: " << mhs[i].nik << endl;
- cout << endl; // Baris kosong untuk pemisah
+ cout << endl; 
  }
  return 0;
 }
+
